@@ -114,7 +114,7 @@ void fillS(char ***S, int N, int M, int k){
     }
 }
 
-// Punto D
+// Punto D - bubblesort
 void sortS(char ***S, int N, int M){
     for(int j=0; j<M; j++){
         for(int pass=0; pass<N-1; pass++){
